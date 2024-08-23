@@ -20,9 +20,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": [
-    "src",
-    "../color-box/src/components/colorInput.tsx",
-    "../color-box/src/components/colorBox.tsx"
-  ]
+  "include": ["src"]
 }
