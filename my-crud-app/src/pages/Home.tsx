@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import BookList from "../components/BookList";
-import './Home.css';
 
 const Home = () => {
   useEffect(() => {
@@ -8,7 +7,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="home">
       <h1>Gerenciamento de Livros</h1>
       <BookList />
     </div>

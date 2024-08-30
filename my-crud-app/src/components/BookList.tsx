@@ -26,13 +26,13 @@ function BookList() {
   return (
     <div>
       <h1>Lista de Livros</h1>
-      <Link to="/add">Adicionar</Link>
+      <Link to="/add" className="botaoAdd">Adicionar</Link>
       <ul>
         {Books.map((Book) => (
           <li key={Book.id}>
             {Book.title} - {Book.author} - {Book.yr_pub} - {Book.genre} - {Book.pg_num}
-            <Link to={`/edit/${Book.id}`}>Edit</Link>
-            <button className="button-primary" onClick={() => handleDelete(Book.id)}>Deletar</button>
+            <Link to={`/edit/${Book.id}`} className="botaoEdit">Editar</Link>
+            <button className="botaoDelete" onClick={() => handleDelete(Book.id)}>Deletar</button>
           </li>
         ))}
       </ul>

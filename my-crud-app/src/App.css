@@ -1,0 +1,82 @@
+#root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+    
+  }
+  
+  .home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  
+  .itens_lista {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 50px;
+  }
+
+  .error{
+    color: red;
+    font-weight: bold;
+  }
+  
+  .botaoDelete {
+    margin-left: 20px;
+    background-color: rgb(255, 77, 77);
+    border: 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  
+  .botaoEdit {
+    margin-left: 20px;
+    background-color: rgb(27, 173, 252);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 12px;
+  }
+  
+  .botaoAdd {
+    margin-left: 180px;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(27, 252, 169);
+    color: black;
+    border-radius: 12px;
+  }
+  
+  label {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .save {
+    background-color: rgb(0, 255, 0);
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+  }
+
+  input{
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    background-color: white;
+  }
